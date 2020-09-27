@@ -15,7 +15,14 @@
         display: flex;
         height: 4vh;
         font-size: 16px;
-        justify-content: space-between;
+        justify-content: space-around;
+        position: fixed;
+        left: 0;
+        top: 0;
+        padding: 2% 0 2% 0;
+        width: 100vw;
+        z-index: 100;
+        background-color: white;
     }
     
     .logo {
@@ -42,6 +49,8 @@
         justify-content: center;
         color: white;
         font-weight: 600;
+        cursor: pointer;
+        z-index: 2;
     }
     /* FIRST PAGE */
     
@@ -589,7 +598,7 @@
     
     .spec {
         width: 58%;
-        height: 63%;
+        height: auto;
         margin-right: 2%;
         margin-bottom: 2%;
         background-color: #f3f3f3;
@@ -597,21 +606,21 @@
     
     .glow {
         width: 40%;
-        height: 63%;
+        height: auto;
         margin-bottom: 2%;
         background-color: #f3f3f3;
     }
     
     .obraz {
         width: 49%;
-        height: 35%;
+        height: auto;
         margin-right: 2%;
         background-color: #f3f3f3;
     }
     
     .komp {
         width: 49%;
-        height: 35%;
+        height: auto;
         background-color: #f3f3f3;
     }
     
@@ -750,7 +759,7 @@
     .buyNow {
         background-color: white;
         width: 70%;
-        height: 70%;
+        height: 60%;
         margin-left: 15%;
         margin-top: 15%;
         color: #009ee0;
@@ -759,6 +768,7 @@
         align-items: center;
         flex-direction: column;
         font-weight: 800;
+        cursor: pointer;
     }
     
     .greyDiv {
@@ -821,7 +831,7 @@
     
     .ninthPage {
         width: 90%;
-        height: 130vh;
+        height: 1220px;
         left: 5%;
         position: relative;
     }

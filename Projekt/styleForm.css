@@ -1,0 +1,376 @@
+    body {
+        padding: 2% 5vw 0 5vw;
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+    }
+    
+    .buyButton {
+        opacity: 0;
+    }
+    /* UP ADVERT */
+    
+    .upAdvert {
+        width: 100%;
+        height: 30vh;
+        margin-top: 5vh;
+        position: relative;
+        font-size: 30px;
+        font-weight: 500;
+        overflow: hidden;
+    }
+    
+    .upAdvertGrey {
+        position: absolute;
+        height: 70%;
+        width: 90%;
+        right: -5vw;
+        background-color: #f3f3f3;
+        z-index: -1;
+    }
+    
+    .upAdvertBlue {
+        height: 50%;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        background-color: #006aa7;
+        color: white;
+        font-size: 40px;
+    }
+    
+    .string,
+    .string2 {
+        position: relative;
+        top: 10%;
+        left: 5%;
+    }
+    
+    .string {
+        top: 25%;
+    }
+    
+    .string b {
+        color: #009ee0;
+    }
+    
+    .upAdvertImg {
+        height: 200%;
+        width: 40%;
+        position: absolute;
+        left: 60%;
+        top: -7%;
+        background: url('img2/1_img1.png');
+        background-repeat: no-repeat;
+        background-size: 75% 100%;
+    }
+    
+    .progress {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10%;
+        margin-top: 2%;
+        margin-bottom: 4vh;
+    }
+    
+    .step {
+        width: 20%;
+        height: 16vh;
+        text-align: center;
+        font-weight: 600;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: flex-end;
+        position: relative;
+    }
+    
+    .stepIcon {
+        display: none;
+    }
+    
+    .step span:first-of-type {
+        font-size: 12px;
+        color: #006aa7;
+    }
+    
+    .smDots {
+        height: 0.5vh;
+        width: 25%;
+        background-color: tomato;
+        background: url('img2/dots.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .stepDescribe {
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+        color: #006aa7;
+        font-weight: 600;
+        padding: 3% 0 0 0;
+    }
+    
+    .stepDescribe span {
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        color: black;
+        font-weight: 500;
+    }
+    /* STEP1 */
+    
+    .chooseStep1 {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .seventhPage {
+        width: 45%;
+        left: 0%;
+        margin-top: 8vh;
+        position: relative;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+    }
+    
+    .seventhPageImgs {
+        height: 40vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-weight: 600;
+    }
+    
+    .img3img {
+        width: 100%;
+        height: 90%;
+        background: url('img2/2_walizka.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .icons {
+        width: 80%;
+        height: 10vh;
+        margin-left: 10%;
+        margin-top: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .icon {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        padding: 5%;
+        font-size: 16px;
+        font-weight: 600;
+        margin-right: 2%;
+    }
+    
+    .plus {
+        width: 5%;
+    }
+    
+    .plus2 {
+        height: 3vh;
+        width: 18%;
+        margin-right: 5%;
+        margin-bottom: 3%;
+    }
+    
+    .img3 {
+        width: 40%;
+        height: 100%;
+    }
+    
+    .img2 {
+        width: 30%;
+        height: 100%;
+    }
+    
+    .img1 {
+        width: 15%;
+        height: 100%;
+    }
+    
+    .packetName,
+    .choose {
+        width: 100%;
+        font-size: 40px;
+        color: #006aa7;
+        background-color: #f3f3f3;
+        font-weight: 700;
+        padding: 3%;
+        margin-bottom: 3vh;
+    }
+    
+    .choose {
+        text-align: center;
+        color: white;
+        background-color: #009ee0;
+        font-size: 20px;
+    }
+    
+    .nextButton {
+        width: 20%;
+        height: 3vh;
+        padding: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 4vh;
+        background-color: #009ee0;
+        color: white;
+        font-size: 24px;
+        text-align: center;
+        font-weight: 700;
+        cursor: pointer;
+    }
+    
+    .footer {
+        width: 100%;
+        height: 50vh;
+        position: relative;
+        margin-top: 15vh;
+    }
+    
+    .ninthPageImg {
+        height: 100%;
+    }
+    
+    .logoFooter {
+        width: 40%;
+        position: absolute;
+        height: 10%;
+        right: -3%;
+    }
+    
+    .ninthPageGrey {
+        position: absolute;
+        height: 50%;
+        width: 60%;
+        right: 0%;
+        top: 25%;
+        background-color: #f3f3f3;
+        z-index: -5;
+    }
+    /* CHOOSE 2 */
+    
+    .chooseStep2 {
+        width: 100%;
+        display: none;
+        /*flex */
+        justify-content: space-around;
+        margin-top: 5vh;
+    }
+    
+    .item {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .itemIcon {
+        display: flex;
+        align-items: center;
+        height: 30vh;
+    }
+    
+    .packetName2 {
+        font-size: 20px;
+    }
+    /* CHOOSE STEP 3 */
+    
+    .chooseStep3 {
+        display: none;
+        /*flex*/
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4vh;
+    }
+    
+    .chooseStep3Header {
+        background-color: #006aa7;
+        color: white;
+        font-size: 30px;
+        font-weight: 600;
+        padding: 3% 5% 3% 5%;
+        width: 40%;
+        text-align: center;
+    }
+    
+    .ninthPageForm {
+        position: static;
+        background-color: #f3f3f3;
+        color: black;
+    }
+    
+    .chooseStep3Header b {
+        font-size: 50px;
+    }
+    
+    .contact1-form-btn {
+        background-color: #009ee0;
+        color: white
+    }
+    
+    input[type=checkbox] {
+        border: 1px solid #006aa7;
+    }
+    
+    input[type=text] {
+        border-bottom: 1px solid#006aa7;
+        background-color: #f3f3f3;
+    }
+    
+    input[type=text]::placeholder,
+    textarea::placeholder {
+        color: #006aa7;
+    }
+    
+    .checkbox-label .checkbox-custom {
+        border: 1px solid #006aa7;
+    }
+    
+    .ninthPageFormTitle {
+        color: #006aa7;
+    }
+    /* thanks */
+    
+    .thanks {
+        width: 60%;
+        margin-left: 20%;
+        text-align: center;
+        font-weight: 500;
+        font-size: 40px;
+        display: none;
+        /*flex*/
+        flex-direction: column;
+        align-items: center;
+    }
+    /* JS CLASS */
+    
+    .stepIconShow {
+        position: absolute;
+        bottom: 0;
+    }
+    
+    .colorStep {
+        color: #006aa7;
+        font-weight: 700;
+    }
