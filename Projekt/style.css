@@ -1,0 +1,1002 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,800;1,500;1,900&display=swap');
+    body {
+        padding: 2% 3% 0 3%;
+        margin: 0;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+    }
+    
+    ul {
+        list-style-position: outside;
+    }
+    /*HEADER*/
+    
+    header {
+        display: flex;
+        height: 4vh;
+        font-size: 16px;
+        justify-content: space-between;
+    }
+    
+    .logo {
+        width: 12.5%;
+        background: url('img/1_logo.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .nav {
+        width: 50%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-evenly;
+        color: #009ee0;
+        z-index: 2;
+    }
+    
+    .buyButton {
+        background-color: #009ee0;
+        width: 10vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: 600;
+    }
+    /* FIRST PAGE */
+    
+    .firstPage {
+        width: 90%;
+        left: 5%;
+        height: 94vh;
+        text-align: right;
+        position: relative;
+        overflow-y: visible;
+    }
+    
+    .grayBackground {
+        background-color: #f3f3f3;
+        position: absolute;
+        width: 80%;
+        height: 100%;
+        left: 20%;
+        top: 10%;
+        z-index: -1;
+    }
+    
+    .blueOverlay {
+        width: 95%;
+        height: 24%;
+        background-color: #009ee0;
+        color: white;
+        position: absolute;
+        bottom: 25%;
+        text-align: left;
+        padding: 1% 0 0 5%;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    
+    .blueOverlay h1 {
+        font-size: 40px;
+        font-weight: 900;
+    }
+    
+    .newLook {
+        position: absolute;
+        top: 20%;
+        font-size: 60px;
+        text-align: left;
+        font-weight: 400;
+    }
+    
+    .newLook b {
+        color: #006aa7;
+    }
+    
+    .firstDots {
+        position: absolute;
+        width: 26%;
+        height: 37%;
+        top: 18%;
+        left: 40%;
+        background: url('img/1_dots.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .tablet {
+        position: absolute;
+        width: 52%;
+        height: 120vh;
+        top: -3%;
+        right: 0;
+        background: url('img/1_tablet.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    /* SECOND PAGE */
+    
+    .secondPage {
+        width: 94vw;
+    }
+    
+    .section1 {
+        width: 75%;
+        height: 65vh;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 12vh;
+    }
+    
+    .section1Img {
+        width: 50%;
+        height: 100%;
+        background: url('img/2_img1.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        z-index: initial;
+    }
+    
+    .section2Img {
+        background: url('img/2_img2.png');
+        background-size: 100% 100%;
+    }
+    
+    .section3Img {
+        background: url('img/2_img3.png');
+        background-size: 100% 100%;
+    }
+    
+    .dots {
+        position: relative;
+        width: 40%;
+        height: 50%;
+        top: 62%;
+        right: 16%;
+        background: url('img/2_dotsDownR.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        z-index: -5;
+    }
+    
+    .dots2 {
+        background: url('img/2_dotsUpR.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        top: 58%;
+        right: 8%;
+    }
+    
+    .dots3 {
+        background: url('img/2_dotsUpL.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        top: 59%;
+        left: 68%;
+    }
+    
+    .content1 {
+        width: 40%;
+        margin-left: 5%;
+        display: flex;
+        flex-direction: column;
+        align-self: flex-end;
+    }
+    
+    .content2 {
+        margin-left: 0;
+        margin-right: 5%;
+    }
+    
+    .secondPageTextTitle {
+        color: #006aa7;
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 5%;
+    }
+    
+    .secondPageTextTitle span {
+        color: black;
+    }
+    
+    .secondPageText {
+        font-size: 20px;
+        margin-bottom: 5%;
+        font-weight: 600;
+    }
+    
+    .secondPagePromotion {
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+    }
+    
+    .emoticon1 {
+        width: 35px;
+        height: 58px;
+        background: url('img/2_img4.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .emoticon2 {
+        width: 29px;
+        height: 57px;
+        background: url('img/2_img5.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .emoticon3 {
+        width: 38px;
+        height: 51px;
+        background: url('img/2_img6.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .bgEmoticon {
+        width: 16%;
+        height: 100%;
+        background-color: #f3f3f3;
+        padding: 3% 0 3% 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .secondPagePromotionText {
+        width: 70%;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        margin-left: 3%;
+    }
+    /* THIRD PAGE */
+    
+    .thirdPage {
+        height: 162vh;
+        margin-bottom: 20vh;
+    }
+    
+    .thirdPageSection {
+        width: 90%;
+        left: 5%;
+        position: relative;
+        height: 50%;
+        z-index: initial;
+        margin-bottom: 3vh;
+    }
+    
+    .grayBackground2 {
+        background-color: #f3f3f3;
+        position: absolute;
+        width: 80%;
+        height: 100%;
+        left: 20%;
+        z-index: -1;
+    }
+    
+    .mobileUsg {
+        position: absolute;
+        font-size: 60px;
+        text-align: left;
+        font-weight: 400;
+        top: 8%;
+    }
+    
+    .mobileUsg b {
+        color: #006aa7;
+    }
+    
+    .menu {
+        width: 80%;
+        position: absolute;
+        top: 35%;
+        right: 3%;
+        display: flex;
+        font-size: 30px;
+        color: #2eafe5;
+        justify-content: space-between;
+        align-items: center;
+        font-weight: 600;
+    }
+    
+    .menu span {
+        color: black;
+        font-size: 16px;
+    }
+    
+    .thirdPageImg {
+        width: 40%;
+        height: 60%;
+        top: 50%;
+        background: url('img/3_img1.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+    }
+    
+    .thirdPageDescribe {
+        width: 42%;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+    }
+    
+    .thirdPageTitle {
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 5%;
+    }
+    
+    .thirdPageTitle b {
+        color: #006aa7;
+    }
+    
+    .thirdPageText {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .thirdPageImg2 {
+        position: absolute;
+        width: 18%;
+        height: 60%;
+        left: 30%;
+        top: 75%;
+        background: url('img/3_img2.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .video {
+        width: 100%;
+        height: 60vh;
+        top: 135%;
+        position: absolute;
+        display: flex;
+    }
+    
+    .videoPlayer {
+        height: 100%;
+        width: 70%;
+        background: url('img/3_img3.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .thirdPageImg2dots {
+        width: 20%;
+        height: 60%;
+        margin-left: 5%;
+        background: url('img/2_dotsDownR.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    /* FOURTH PAGE */
+    
+    .fourthPage {
+        width: 90%;
+        left: 5%;
+        position: relative;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 15vh;
+    }
+    
+    .fourthPageText {
+        width: 35%;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    
+    .fourthPage b {
+        color: #006aa7;
+    }
+    
+    .fourthPage span {
+        font-size: 24px;
+    }
+    
+    .fourthPage h3 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+    
+    .option1Button,
+    .option2Button,
+    .option3Button {
+        background-color: tomato;
+        margin-bottom: 5%;
+    }
+    
+    .option1,
+    .option2,
+    .option3 {
+        background-color: violet;
+        margin-bottom: 5%;
+    }
+    
+    .option2,
+    .option3 {
+        display: none;
+    }
+    
+    .fourthPageGraphics {
+        width: 40%;
+        margin-left: 10%;
+        margin-left: 5%;
+        height: 75vh;
+        background-color: teal;
+    }
+    /* FIFTH PAGE */
+    
+    .fifthPage {
+        width: 90%;
+        left: 5%;
+        position: relative;
+    }
+    
+    .fifthPageTitle {
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 4vh;
+    }
+    
+    .fifthPageSection {
+        height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        margin-bottom: 8%;
+    }
+    
+    .fifthPageTitle b,
+    .fifthPageText b {
+        color: #006aa7;
+    }
+    
+    .fifthPageText {
+        font-size: 30px;
+    }
+    
+    .fifthPageText li {
+        font-size: 20px;
+    }
+    
+    .fifthPageSectionImg1,
+    .fifthPageSectionImg2,
+    .fifthPageSectionImg3,
+    .fifthPageSectionImg4 {
+        width: 25%;
+        height: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+        background: url('img/5_img1.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+    }
+    
+    .fifthPageSectionImg2 {
+        background: url('img/5_img2.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .fifthPageSectionImg3 {
+        background: url('img/5_img3.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .fifthPageSectionImg4 {
+        background: url('img/5_img4.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .smallImg1,
+    .fifthDots1 {
+        position: absolute;
+        z-index: -1;
+        left: 90%;
+        top: 20%;
+        height: 60%;
+        width: 60%;
+        background: url('img/5_img5.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .smallImg2 {
+        left: -50%;
+        top: -10%;
+        background: url('img/5_img6.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .smallImg3 {
+        top: -10%;
+        background: url('img/5_img7.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .smallImg4 {
+        top: 48%;
+        left: -50%;
+        background: url('img/5_img8.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .fifthDots1 {
+        width: 80%;
+        top: 37%;
+        left: 60%;
+        background: url('img/5_dots1.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        z-index: -2;
+    }
+    
+    .fifthDots2 {
+        left: -62%;
+        top: -5%;
+        background: url('img/5_dots1.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .fifthDots3 {
+        top: 40%;
+        left: 52%;
+        background: url('img/2_dotsUpR.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .fifthDots4 {
+        top: 51%;
+        left: -28%;
+        background: url('img/2_dotsUpR.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    /* SIXTH PAGE */
+    
+    .sixthPage {
+        width: 90%;
+        left: 5%;
+        position: relative;
+        margin-top: 20vh;
+        flex-wrap: wrap;
+    }
+    
+    .sixthPageContainer {
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .spec {
+        width: 58%;
+        height: 63%;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        background-color: #f3f3f3;
+    }
+    
+    .glow {
+        width: 40%;
+        height: 63%;
+        margin-bottom: 2%;
+        background-color: #f3f3f3;
+    }
+    
+    .obraz {
+        width: 49%;
+        height: 35%;
+        margin-right: 2%;
+        background-color: #f3f3f3;
+    }
+    
+    .komp {
+        width: 49%;
+        height: 35%;
+        background-color: #f3f3f3;
+    }
+    
+    .komp .sixthPageContent {
+        text-align: center;
+    }
+    
+    .sixthPageTitle {
+        font-size: 30px;
+        font-weight: 700;
+        color: #006aa7;
+        padding: 3%;
+    }
+    
+    td {
+        width: 50%;
+        border-bottom: 1px solid white;
+        text-align: left;
+        padding: 0 5% 2% 2vw;
+    }
+    
+    tr td:first-of-type {
+        color: #2eafe5;
+    }
+    /* SEVENTH PAGE */
+    
+    .seventhPage {
+        width: 90%;
+        left: 5%;
+        margin-top: 8vh;
+        position: relative;
+    }
+    
+    .seventhPageImgs {
+        height: 70vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 600;
+    }
+    
+    .seventhPageDescribe {
+        height: 10%;
+        text-align: center;
+        font-size: 16px;
+    }
+    
+    .plus {
+        height: 8%;
+        width: 3%;
+        background: url('img/7_plus.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin-bottom: 5%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    
+    .img1 {
+        width: 10%;
+        height: 100%;
+    }
+    
+    .img1img {
+        width: 100%;
+        height: 90%;
+        background: url('img/7_img1.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .img2 {
+        width: 20%;
+        height: 100%;
+    }
+    
+    .img2img {
+        width: 100%;
+        height: 90%;
+        background: url('img/7_img2.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .img3 {
+        width: 30%;
+        height: 100%;
+    }
+    
+    .img3img {
+        width: 100%;
+        height: 90%;
+        background: url('img/7_img3.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .icons {
+        width: 25%;
+        height: 90%;
+    }
+    
+    .icon {
+        margin-bottom: 5%;
+        height: 40%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #f3f3f3;
+        font-size: 20px;
+    }
+    /* EIGHTH PAGE */
+    
+    .eighthPage {
+        width: 90%;
+        left: 5%;
+        height: 90vh;
+        margin-top: 8vh;
+        margin-bottom: 8vh;
+        position: relative;
+    }
+    
+    .blueDiv {
+        width: 28%;
+        height: 55%;
+        position: absolute;
+        background-color: #009ee0;
+        color: white;
+        font-size: 30px;
+        padding: 3%;
+    }
+    
+    .buyNow {
+        background-color: white;
+        width: 70%;
+        height: 70%;
+        margin-left: 15%;
+        margin-top: 15%;
+        color: #009ee0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-weight: 800;
+    }
+    
+    .greyDiv {
+        width: 80%;
+        height: 60%;
+        position: absolute;
+        left: 20%;
+        top: 30%;
+        background-color: #f3f3f3;
+        z-index: -1;
+    }
+    
+    .greyDiv .fifthPageTitle {
+        font-size: 30px;
+        text-align: left;
+        margin-left: 30%;
+        margin-top: 3%;
+        font-weight: 600;
+    }
+    
+    .infos {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 30%;
+        font-weight: 600;
+    }
+    
+    .greyDivInfo {
+        width: 50%;
+        margin-right: 5%;
+    }
+    
+    .greyDivInfo li {
+        padding: 0 0 2% 0;
+    }
+    
+    .greyDivInfo a {
+        color: #009ee0;
+        cursor: pointer;
+    }
+    
+    .greyDivInfo span {
+        font-size: 24px;
+        font-weight: 700;
+        color: #006aa7;
+    }
+    
+    .eighthPageDots {
+        position: absolute;
+        width: 22%;
+        height: 32%;
+        left: 35%;
+        top: 17%;
+        background: url('img/5_dots1.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        z-index: -3;
+    }
+    /* NINTH PAGE */
+    
+    .ninthPage {
+        width: 90%;
+        height: 130vh;
+        left: 5%;
+        position: relative;
+    }
+    
+    .ninthPageDescribe {
+        width: 40%;
+        position: absolute;
+        top: 20vh;
+    }
+    
+    .ninthPageDescribe .logo {
+        height: 4vh;
+        width: 40%;
+        margin-bottom: 4vh;
+    }
+    
+    .ninthPageDescribe span {
+        font-size: 30px;
+    }
+    
+    .ninthPageDescribe {
+        font-weight: 600;
+    }
+    
+    .ninthPageForm {
+        width: 40%;
+        position: absolute;
+        background-color: #006aa7;
+        left: 50%;
+        padding: 5%;
+        color: white;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    
+    .ninthPageFormTitle {
+        width: 90%;
+        margin-bottom: 5%;
+    }
+    
+    input[type=text],
+    textarea {
+        width: 70%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border: none;
+        border-bottom: 1px solid white;
+        background-color: #006aa7;
+    }
+    
+    input[type=text]::placeholder,
+    textarea::placeholder {
+        color: rgba(255, 255, 255, 0.644);
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    input[type=checkbox] {
+        border: 1px solid white;
+        background-color: #006aa7;
+    }
+    
+    .contact-form {
+        width: 100%;
+        font-size: 16px;
+        margin-bottom: 5%;
+        font-weight: 600;
+    }
+    
+    .checkbox-container div {
+        margin-right: 3%;
+    }
+    
+    .wrap-input1 {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .checkbox-container {
+        padding: 1%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 12px;
+        width: 100%;
+    }
+    
+    .checkboxes {
+        margin-left: 15%;
+        margin-bottom: 5%;
+    }
+    
+    .contact1-form-btn {
+        border: none;
+        color: #009ee0;
+        width: 40%;
+        height: 70px;
+        font-size: 16px;
+        margin-left: 30%;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    
+    .ninthPageImg {
+        width: 62%;
+        height: 40%;
+        position: absolute;
+        bottom: 0;
+        background: url('img/9_img1.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        z-index: 3;
+    }
+    
+    .ninthPageContact {
+        width: 40%;
+        position: absolute;
+        right: -3%;
+        bottom: 3vh;
+        font-weight: 600;
+        font-size: 30px;
+    }
+    
+    .contactContainer {
+        display: flex;
+        font-size: 16px;
+    }
+    
+    .contactContainer img {
+        margin-right: 1vw;
+    }
+    
+    .contact {
+        text-align: left;
+        padding: 10px;
+    }
+    
+    .loc,
+    .phone1,
+    .phone2 {
+        margin-right: 1vw;
+        margin-bottom: 3vh;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .authorAndRights {
+        margin-left: 10%;
+        display: flex;
+        justify-content: space-between;
+        width: 75%;
+        font-size: 16px;
+    }
+    
+    .ninthPageDots1 {
+        position: absolute;
+        z-index: -3;
+        left: 30%;
+        top: 5%;
+        height: 30%;
+        width: 30%;
+        background: url('img/9_dots.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .ninthPageGrey {
+        position: absolute;
+        height: 30%;
+        width: 60%;
+        right: -9%;
+        top: 62%;
+        background-color: #f3f3f3;
+        z-index: -5;
+    }

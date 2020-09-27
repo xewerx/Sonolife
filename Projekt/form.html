@@ -8,7 +8,9 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="checkboxStyle.css">
     <link rel="stylesheet" href="style2.css">
+
 </head>
 
 <body>
@@ -24,7 +26,274 @@
         <div class="buyButton"></div>
     </header>
 
+    <div class="container">
+        <div class="upAdvert">
+            <div class="string">Poznaj możliwości zakupu <b>Chison SonoEye</b></div>
+            <div class="upAdvertGrey"></div>
+            <div class="upAdvertBlue">
+                <div class="string2"><b>W trzech krótkich krokach</b> wybierz<br>pakiet dopasowany do Twoich potrzeb</div>
+            </div>
+            <div class="upAdvertImg"></div>
+        </div>
 
+        <div class="progress">
+            <div class="step">
+                <img src="img2/icon1.png"><br><br>
+                <span>KROK 1</span><br><br>
+                <span>Wybierz pakiet z odpowiednią dla Ciebie ilością głowic</span>
+            </div>
+            <div class="smDots"></div>
+            <div class="step">
+                <img src="img2/icon2.png"><br><br>
+                <span>KROK 2</span><br><br>
+                <span>Wybierz wyposażenie dodatkowe</span>
+            </div>
+            <div class="smDots"></div>
+            <div class="step">
+                <img src="img2/icon3.png"><br><br>
+                <span>KROK 3</span><br><br>
+                <span>Wypełnij krótki formularz, skontaktujemy się z Tobą</span>
+            </div>
+        </div>
+
+        <div class="stepDescribe">
+            KROK 1<br><span>Wybierz pakiet:</span>
+        </div>
+
+        <div class="chooseStep1">
+
+            <div class="seventhPage">
+
+                <div class="packetName">SonoEye Pakiet Basic</div>
+                Pakiet zawiera:
+                <div class="seventhPageImgs">
+                    <div class="img1">
+                        <div class="img1img"></div>
+                        <div class="seventhPageDescribe">Aparat USG SonoEye</div>
+                    </div>
+                    <div class="plus"></div>
+                    <div class="img2">
+                        <div class="img2img"></div>
+                        <div class="seventhPageDescribe">1 kabel łączący</div>
+                    </div>
+                    <div class="plus"></div>
+                    <div class="img3">
+                        <div class="img3img"></div>
+                        <div class="seventhPageDescribe">Walizka transportowa</div>
+                    </div>
+                </div>
+
+                <div class="icons">
+                    <div class="plus plus2"></div>
+                    <div class="icon"><img src="img/7_icon1.png">Aplikacja SonoEye</div>
+                    <div class="icon"><img src="img/7_icon2.png">Licencja użytkownika</div>
+                </div>
+
+                <div class="choose">
+                    <input type="checkbox" id="basic">
+                    <span>WYBIERZ</span>
+                </div>
+            </div>
+
+            <div class="seventhPage">
+
+                <div class="packetName">SonoEye Pakiet Basic</div>
+                Pakiet zawiera:
+                <div class="seventhPageImgs">
+
+                    <div class="img1">
+                        <div class="img1img"></div>
+                        <div class="seventhPageDescribe">Aparat USG SonoEye</div>
+                    </div>
+                    <div class="plus"></div>
+                    <div class="img2">
+                        <div class="img2img"></div>
+                        <div class="seventhPageDescribe">1 kabel łączący</div>
+                    </div>
+                    <div class="plus"></div>
+                    <div class="img3">
+                        <div class="img3img"></div>
+                        <div class="seventhPageDescribe">Walizka transportowa</div>
+                    </div>
+                </div>
+
+                <div class="icons">
+                    <div class="plus plus2"></div>
+                    <div class="icon"><img src="img/7_icon1.png">Aplikacja SonoEye</div>
+                    <div class="icon"><img src="img/7_icon2.png">Licencja użytkownika</div>
+                </div>
+
+                <div class="choose">
+                    <input type="checkbox" id="advance">
+                    <span>WYBIERZ</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="chooseStep2">
+            <div class="item">
+                <div class="packetName packetName2">Brak wyposażenia dodatkowego</div>
+                <div class="itemIcon">
+                    <img src="img2/3_icon1.png">
+                </div>
+                <div class="choose">
+                    <input type="checkbox" id="gift1">
+                    <span>WYBIERZ</span>
+                </div>
+            </div>
+            <div class="item">
+                <div class="packetName packetName2">Tablet i etui</div>
+                <div class="itemIcon">
+                    <img src="img2/3_icon2.png">
+                </div>
+                <div class="choose">
+                    <input type="checkbox" id="gift2">
+                    <span>WYBIERZ</span>
+                </div>
+            </div>
+            <div class="item">
+                <div class="packetName packetName2">Szkolenie USG Trener</div>
+                <div class="itemIcon">
+                    <img src="img2/3_icon3.png">
+                </div>
+                <div class="choose">
+                    <input type="checkbox" id="gift3">
+                    <span>WYBIERZ</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="chooseStep3">
+            <div class="chooseStep3Header">Wybrałeś pakiet<br><b>SonoEye Pakiet Basic</b><br>oraz tablet z etui i szkolenie USG Trener</div>
+
+            <div class="ninthPageForm">
+
+                <div class="ninthPageFormTitle">
+                    <b>Uzupełnij formularz</b>
+                </div>
+
+                <form class="validate-form" onsubmit="return false">
+                    <div class="contact-form">
+                        <div class="wrap-input1 validate-input" data-validate="Podaj imię i nazwisko!">
+                            <label>Imię, nazwisko:</label>
+                            <input type="text" class="input1 name" name="name" placeholder="Wpisz">
+                        </div>
+                        <div class="wrap-input1 validate-input" data-validate="Podaj poprawny e-mail!">
+                            <label>Nr. telefonu:</label>
+                            <input type="text" class="input1 email" name="email" placeholder="Wpisz">
+                        </div>
+                        <div class="wrap-input1 validate-input" data-validate="Podaj temat!">
+                            <label>Adres e-mail:</label>
+                            <input type="text" class="input1 subject" name="subject" placeholder="Wpisz">
+                        </div>
+
+                    </div>
+                    <div class="checkboxes">
+
+                        <div class="checkbox-container">
+                            <div>
+                                <label class="checkbox-label">
+                                    <input type="checkbox">
+                                    <span class="checkbox-custom rectangular"></span>
+                                </label>
+                            </div>
+                            <span>Zgoda na przetwarzanie danych osobowych. <b>więcej</b></span>
+                        </div>
+
+                        <div class="checkbox-container">
+                            <div>
+                                <label class="checkbox-label">
+                                    <input type="checkbox">
+                                    <span class="checkbox-custom rectangular"></span>
+                                </label>
+                            </div>
+                            <span>Zgoda na udostępnianie danych podmiotom trzecim. <b>więcej</b></span>
+                        </div>
+                        <div class="checkbox-container">
+                            <div>
+                                <label class="checkbox-label">
+                                    <input type="checkbox">
+                                    <span class="checkbox-custom rectangular"></span>
+                                </label>
+                            </div>
+                            <span>Zgoda na przesyłanie informacji handlowych. <b>więcej</b></span>
+                        </div>
+                        <div class="checkbox-container">
+                            <div>
+                                <label class="checkbox-label">
+                                    <input type="checkbox">
+                                    <span class="checkbox-custom rectangular"></span>
+                                </label>
+                            </div>
+                            <span>Zgoda na używanie telekomunikacyjnych urządzeń końcowych. <b>więcej</b></span>
+                        </div>
+                    </div>
+                    <!-- <div class="sendConfirmed">Wiadomość została wysłana!</div> -->
+
+                    <button class="contact1-form-btn main-btn">WYŚLIJ FORMULARZ</button>
+
+                </form>
+            </div>
+        </div>
+
+        <div class="thanks">
+            <img src="img2/4_icon.png">
+            <div>Dziękujemy za uzupełnienie formularza.<br> Nasz handlowiec skontaktuje się z Państwem w celu ustalenia szczegółów zakupu</div>
+        </div>
+
+
+        <div class="nextButton">PRZEJDŹ DALEJ</div>
+
+
+        <div class="footer">
+            <div class="ninthPageImg"></div>
+            <div class="logoFooter">
+                <img src="img/1_logo.png"><br>
+            </div>
+            <div class="ninthPageGrey"></div>
+            <div class="ninthPageContact">
+                <b>Skontaktuj się z nami</b>
+                <div class="contactContainer">
+                    <div class="contact">
+                        <div class="loc">
+                            <img src="img/9_icon1.png"><br>
+                            <span><b>SONOlige Spółka z o.o.</b><br>al.Zygmunta Krasińskiego 20a<br>64-100 Leszno</span>
+                        </div>
+                    </div>
+
+
+                    <div class="contact">
+                        <div class="phones">
+
+                            <div class="phone1">
+                                <img src="img/9_icon2.png"><br>
+                                <span><b>tel.</b> 65 545 8040<br>
+                                    <b>faks:</b> 65 545 8042</span>
+                            </div>
+                            <div class="phone2">
+                                <img src="img/9_icon3.png"><br>
+                                <span><b>email:</b> serwis@sonolife.pl</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="authorAndRights">
+                    <div class="rights">
+                        <b>© SONOlife 2020.</b><br>Wszystkie prawa zastrzeżone<br>Polityka prywatności
+                    </div>
+                    <div class="author">Wykonanie serwisu:<br>www.dont.pl</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>
