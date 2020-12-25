@@ -4,32 +4,56 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>CHISON SonoEye</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/png" href="img/favicon.ico" />
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="checkboxStyle.css">
+    <link rel="stylesheet" href="mobileStyle.css">
     <link rel="stylesheet" href="styleForm.css">
+
 
 </head>
 
 <body>
     <header>
         <div class="logo"></div>
+
+
         <div class="nav">
             <div class=""><b>Poznaj SonoEye</b></div>
             <div class=""><b>Mobilne USG</b></div>
             <div class=""><b>SonoEye w akcji</b></div>
             <div class=""><b>Obrazy kliniczne</b></div>
-            <div class=""><b>Specyfikacja</b></div>
+
         </div>
-        <div class="buyButton"></div>
+
+        <div class="hamburgerButton ham">
+
+        </div>
+
+        <div class="buyButton">POWRÓT&nbsp;DO&nbsp;STRONY&nbsp;GŁÓWNEJ</div>
+        <div class="topnav">
+            <div class="myLinks">
+                <a href="#news">Poznaj SonoEye</a>
+                <a href="#contact">Mobilne USG</a>
+                <a href="#about">SonoEye w akcji</a>
+                <a href="#about">Obrazy kliniczne</a>
+                <a href="#about">Specyfikacja</a>
+            </div>
+        </div>
+
+
     </header>
 
     <div class="container">
+        <div class="upAdvertGrey"></div>
         <div class="upAdvert">
-            <div class="string">Poznaj możliwości zakupu <b>Chison SonoEye</b></div>
-            <div class="upAdvertGrey"></div>
+            <div class="string">Poznaj możliwości zakupu <b>CHISON SonoEye</b></div>
+
             <div class="upAdvertBlue">
                 <div class="string2"><b>W trzech krótkich krokach</b> wybierz<br>pakiet dopasowany do Twoich potrzeb</div>
             </div>
@@ -41,7 +65,7 @@
                 <img src="img2/icon1.png">
                 <span>KROK 1</span><br>
                 <span>Wybierz pakiet z odpowiednią dla Ciebie ilością głowic</span>
-                <img class="stepIcon stepIconShow " src="img2/ok.png">
+                <img class="stepIcon" src="img2/ok.png">
             </div>
             <div class="smDots"></div>
             <div class="step">
@@ -68,13 +92,14 @@
             <div class="seventhPage">
 
                 <div class="packetName">SonoEye Pakiet Basic</div>
-                Pakiet zawiera:
+                <div class="packetInclude">Pakiet zawiera:</div>
+
                 <div class="seventhPageImgs">
                     <div class="img1">
-                        <div class="img1img"></div>
-                        <div class="seventhPageDescribe">Aparat USG SonoEye</div>
+                        <div class="img1img img1img_s"></div>
+                        <div class="seventhPageDescribe">1 głowica CHISON SonoEye (P2 liniowa lub P5 convex)</div>
                     </div>
-                    <div class="plus"></div>
+                    <div class="plus plus_s"></div>
                     <div class="img2">
                         <div class="img2img"></div>
                         <div class="seventhPageDescribe">1 kabel łączący</div>
@@ -87,47 +112,64 @@
                 </div>
 
                 <div class="icons">
-                    <div class="plus plus2"></div>
+                    <div class="plus2"><img src="img/7_plus.png" width="30" height="30"></div>
                     <div class="icon"><img src="img/7_icon1.png">Aplikacja SonoEye</div>
                     <div class="icon"><img src="img/7_icon2.png">Licencja użytkownika</div>
                 </div>
 
-                <div class="choose">
-                    <input type="checkbox" id="basic">
+                <div class="choose choose_1">
+                    <div class="checkbox-container2">
+                        <div>
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="basic">
+                                <span class="checkbox-custom rectangular"></span>
+                            </label>
+                        </div>
+                    </div>
                     <span>WYBIERZ</span>
                 </div>
             </div>
 
             <div class="seventhPage">
 
-                <div class="packetName">SonoEye Pakiet Basic</div>
-                Pakiet zawiera:
+                <div class="packetName">SonoEye Pakiet Advance</div>
+                <div class="packetInclude">Pakiet zawiera:</div>
                 <div class="seventhPageImgs">
 
-                    <div class="img1">
-                        <div class="img1img"></div>
-                        <div class="seventhPageDescribe">Aparat USG SonoEye</div>
+                    <div class="img1_2 ">
+                        <div class="imgs1 ">
+                            <div class="img1img"></div>
+                            <div class="img1img img1img_2a"></div>
+                        </div>
+                        <div class="seventhPageDescribe">2 głowice CHISON SonoEye (P2 liniowa, P5 convex)</div>
                     </div>
                     <div class="plus"></div>
-                    <div class="img2">
+                    <div class="img2 ">
                         <div class="img2img"></div>
                         <div class="seventhPageDescribe">1 kabel łączący</div>
                     </div>
                     <div class="plus"></div>
-                    <div class="img3">
+                    <div class="img3 ">
                         <div class="img3img"></div>
                         <div class="seventhPageDescribe">Walizka transportowa</div>
                     </div>
                 </div>
 
                 <div class="icons">
-                    <div class="plus plus2"></div>
+                    <div class="plus2"><img src="img/7_plus.png" width="30" height="30"></div>
                     <div class="icon"><img src="img/7_icon1.png">Aplikacja SonoEye</div>
                     <div class="icon"><img src="img/7_icon2.png">Licencja użytkownika</div>
                 </div>
 
-                <div class="choose">
-                    <input type="checkbox" id="advance">
+                <div class="choose choose_2">
+                    <div class="checkbox-container2">
+                        <div>
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="advance">
+                                <span class="checkbox-custom rectangular"></span>
+                            </label>
+                        </div>
+                    </div>
                     <span>WYBIERZ</span>
                 </div>
             </div>
@@ -140,8 +182,15 @@
                 <div class="itemIcon">
                     <img src="img2/3_icon1.png">
                 </div>
-                <div class="choose">
-                    <input type="checkbox" id="gift1">
+                <div class="choose choose_2  step2choose1">
+                    <div class="checkbox-container2">
+                        <div>
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="gift1">
+                                <span class="checkbox-custom rectangular"></span>
+                            </label>
+                        </div>
+                    </div>
                     <span>WYBIERZ</span>
                 </div>
             </div>
@@ -150,8 +199,15 @@
                 <div class="itemIcon">
                     <img src="img2/3_icon2.png">
                 </div>
-                <div class="choose">
-                    <input type="checkbox" id="gift2">
+                <div class="choose choose_2  step2choose2">
+                    <div class="checkbox-container2">
+                        <div>
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="gift2">
+                                <span class="checkbox-custom rectangular"></span>
+                            </label>
+                        </div>
+                    </div>
                     <span>WYBIERZ</span>
                 </div>
             </div>
@@ -160,135 +216,198 @@
                 <div class="itemIcon">
                     <img src="img2/3_icon3.png">
                 </div>
-                <div class="choose">
-                    <input type="checkbox" id="gift3">
+                <div class="choose choose_2  step2choose3">
+                    <div class="checkbox-container2">
+                        <div>
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="gift3">
+                                <span class="checkbox-custom rectangular"></span>
+                            </label>
+                        </div>
+                    </div>
                     <span>WYBIERZ</span>
                 </div>
             </div>
         </div>
 
         <div class="chooseStep3">
-            <div class="chooseStep3Header">Wybrałeś pakiet<br><b>SonoEye Pakiet Basic</b><br>oraz tablet z etui i szkolenie USG Trener</div>
+            <div class="chooseStep3Header"></div>
+            <div class="ninthBackround">
+                <div class="ninthPageForm">
 
-            <div class="ninthPageForm">
+                    <div class="ninthPageFormTitle">
+                        <b>Uzupełnij formularz</b>
+                    </div>
 
-                <div class="ninthPageFormTitle">
-                    <b>Uzupełnij formularz</b>
+                    <form class="validate-form" onsubmit="return false">
+                        <div class="contact-form">
+                            <div class="wrap-input1 validate-input" data-validate="Podaj imię i nazwisko!">
+                                <label>Imię, nazwisko:</label>
+                                <input type="text" class="input1 name" name="name" placeholder="Wpisz" required>
+                            </div>
+                            <div class="wrap-input1 validate-input" data-validate="Podaj poprawny e-mail!">
+                                <label>Nr. telefonu:</label>
+                                <input type="text" class="input1 email" name="email" placeholder="Wpisz" required>
+                            </div>
+                            <div class="wrap-input1 validate-input" data-validate="Podaj temat!">
+                                <label>Adres e-mail:</label>
+                                <input type="text" class="input1 subject" name="subject" placeholder="Wpisz" required>
+                            </div>
+
+                        </div>
+                        <div class="checkboxes">
+
+                            <div class="checkbox-container">
+                                <div>
+                                    <label class="checkbox-label">
+                                    <input type="checkbox" class="checkboxValid" required>
+                                    <span class="checkbox-custom rectangular blueCheckbox"></span>
+                                </label>
+                                </div>
+                                <span>Zgoda na przetwarzanie danych osobowych.* <b class="acceptShow1">Więcej</b></span>
+                            </div>
+                            <div class="checkboxAccept accept1">Niniejszym, wyrażam zgodę na gromadzenie i przetwarzanie moich danych osobowych przez SONOlife sp. z o.o. z siedzibą w Lesznie (dalej w skrócie jako Administrator danych), zgodnie z Rozporządzeniem Parlamentu Europejskiego
+                                i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 roku w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/we (Ogólne Rozporządzenie
+                                o Ochronie Danych) (Dz.Urz.UE.l nr 119, str. 1) w celu przesyłania mi na adres poczty elektronicznej, oraz numer telefonu informacji marketingowych, a także bezpośredniego kontaktu telefonicznego w celu marketingowym oraz
+                                na profilowanie przez Administratora danych moich danych osobowych w celu przedstawienia mi zindywidualizowanej oferty, reklamy i promocji. Jednocześnie jestem świadomy/a, iż w/w podmioty są administratorami moich danych
+                                osobowych. *
+                            </div>
+                            <div class="checkbox-container">
+                                <div>
+                                    <label class="checkbox-label">
+                                    <input type="checkbox" class="checkboxValid" required>
+                                    <span class="checkbox-custom rectangular blueCheckbox"></span>
+                                </label>
+                                </div>
+                                <span>Zgoda na udostępnianie danych podmiotom trzecim.* <b class="acceptShow2">Więcej</b></span>
+                            </div>
+                            <div class="checkboxAccept accept2">Wyrażam zgodę na udostępnienie moich danych osobowych przez Administratora danych współpracującym z nim podmiotom trzecim.</div>
+
+                            <div class="checkbox-container">
+                                <div>
+                                    <label class="checkbox-label ">
+                                    <input type="checkbox" class="checkboxValid" required>
+                                    <span class="checkbox-custom rectangular blueCheckbox"></span>
+                                </label>
+                                </div>
+                                <span>Zgoda na przesyłanie informacji handlowych.* <b class="acceptShow3">Więcej</b></span>
+                            </div>
+                            <div class="checkboxAccept accept3">Wyrażam zgodę na przesyłanie informacji handlowych przez Administratora danych drogą elektroniczną zgodnie z ustawą z dnia 18 lipca 2002 roku o świadczeniu usług drogą elektroniczną (Dz.U. z 2017 r. poz. 1219 j.t. z późn. zm.).</div>
+
+                            <div class="checkbox-container">
+                                <div>
+                                    <label class="checkbox-label">
+                                    <input type="checkbox" class="checkboxValid" required>
+                                    <span class="checkbox-custom rectangular blueCheckbox"></span>
+                                </label>
+                                </div>
+                                <span>Zgoda na używanie telekomunikacyjnych urządzeń końcowych.* <b class="acceptShow4">Więcej</b></span>
+
+                            </div>
+                            <div class="checkboxAccept accept4">Wyrażam zgodę na używanie telekomunikacyjnych urządzeń końcowych i automatycznych systemów wywołujących Administratora danych zgodnie z ustawą z dnia 16 lipca 2004 roku Prawo telekomunikacyjne (Dz.U. z 2017 r. poz. 1907 j.t.
+                                z późn. zm.)</div>
+                        </div>
+                        <!--\<div class="sendConfirmed">Wiadomość została wysłana!</div> -->
+
+                        <button type="submit" class="contact1-form-btn contact1-form-btn2 main-btn">WYŚLIJ FORMULARZ</button>
+                        <div class="valid"></div>
+                    </form>
                 </div>
-
-                <form class="validate-form" onsubmit="return false">
-                    <div class="contact-form">
-                        <div class="wrap-input1 validate-input" data-validate="Podaj imię i nazwisko!">
-                            <label>Imię, nazwisko:</label>
-                            <input type="text" class="input1 name" name="name" placeholder="Wpisz">
-                        </div>
-                        <div class="wrap-input1 validate-input" data-validate="Podaj poprawny e-mail!">
-                            <label>Nr. telefonu:</label>
-                            <input type="text" class="input1 email" name="email" placeholder="Wpisz">
-                        </div>
-                        <div class="wrap-input1 validate-input" data-validate="Podaj temat!">
-                            <label>Adres e-mail:</label>
-                            <input type="text" class="input1 subject" name="subject" placeholder="Wpisz">
-                        </div>
-
-                    </div>
-                    <div class="checkboxes">
-
-                        <div class="checkbox-container">
-                            <div>
-                                <label class="checkbox-label">
-                                    <input type="checkbox">
-                                    <span class="checkbox-custom rectangular"></span>
-                                </label>
-                            </div>
-                            <span>Zgoda na przetwarzanie danych osobowych. <b>więcej</b></span>
-                        </div>
-
-                        <div class="checkbox-container">
-                            <div>
-                                <label class="checkbox-label">
-                                    <input type="checkbox">
-                                    <span class="checkbox-custom rectangular"></span>
-                                </label>
-                            </div>
-                            <span>Zgoda na udostępnianie danych podmiotom trzecim. <b>więcej</b></span>
-                        </div>
-                        <div class="checkbox-container">
-                            <div>
-                                <label class="checkbox-label">
-                                    <input type="checkbox">
-                                    <span class="checkbox-custom rectangular"></span>
-                                </label>
-                            </div>
-                            <span>Zgoda na przesyłanie informacji handlowych. <b>więcej</b></span>
-                        </div>
-                        <div class="checkbox-container">
-                            <div>
-                                <label class="checkbox-label">
-                                    <input type="checkbox">
-                                    <span class="checkbox-custom rectangular"></span>
-                                </label>
-                            </div>
-                            <span>Zgoda na używanie telekomunikacyjnych urządzeń końcowych. <b>więcej</b></span>
-                        </div>
-                    </div>
-                    <!-- <div class="sendConfirmed">Wiadomość została wysłana!</div> -->
-
-                    <button class="contact1-form-btn main-btn">WYŚLIJ FORMULARZ</button>
-
-                </form>
             </div>
         </div>
 
-        <div class="thanks">
-            <img src="img2/4_icon.png">
+        <div class="thanks ">
+            <img src="img2/4_icon.png ">
             <div>Dziękujemy za uzupełnienie formularza.<br> Nasz handlowiec skontaktuje się z Państwem w celu ustalenia szczegółów zakupu</div>
         </div>
 
+        <div class="error">XXXX</div>
+        <div class="nextButton ">PRZEJDŹ DALEJ</div>
 
-        <div class="nextButton">PRZEJDŹ DALEJ</div>
 
-
-        <div class="footer">
-            <div class="ninthPageImg"></div>
-            <div class="logoFooter">
-                <img src="img/1_logo.png"><br>
+        <div class="ninthPageGrey mobFooter"></div>
+        <div class="contactMobile">
+            <div class="ninthPageImg mobFooter">
+                <div class="nineMobileDots"></div>
             </div>
-            <div class="ninthPageGrey"></div>
-            <div class="ninthPageContact">
-                <b>Skontaktuj się z nami</b>
+
+
+            <div class="ninthPageContact mobFooter">
+                <b class="contactB">Skontaktuj się z nami</b>
                 <div class="contactContainer">
                     <div class="contact">
                         <div class="loc">
                             <img src="img/9_icon1.png"><br>
-                            <span><b>SONOlige Spółka z o.o.</b><br>al.Zygmunta Krasińskiego 20a<br>64-100 Leszno</span>
+                            <span><b>SONOlife&nbsp;Spółka&nbsp;z&nbsp;o.o.</b><br>al. Zygmunta Krasińskiego&nbsp;20a<br>64-100 Leszno</span>
+                        </div>
+                        <div class="rights">
+                            <b>© SONOlife 2020.</b><br>Wszystkie prawa zastrzeżone<br><a target="_blank" href="policy.html">Polityka prywatności</a>
                         </div>
                     </div>
-
-
                     <div class="contact">
                         <div class="phones">
 
                             <div class="phone1">
                                 <img src="img/9_icon2.png"><br>
                                 <span><b>tel.</b> 65 545 8040<br>
-                                    <b>faks:</b> 65 545 8042</span>
+                                <b>faks:</b> 65 545 8042</span>
                             </div>
                             <div class="phone2">
                                 <img src="img/9_icon3.png"><br>
-                                <span><b>email:</b> serwis@sonolife.pl</span>
+                                <span><b>email: </b><a href="mailto:sonoeye@sonolife.pl"> sonoeye@sonolife.pl</a></span>
                             </div>
 
+                            <div class="author">Wykonanie serwisu:<br><a href="https://www.dont.pl">www.dont.pl</a></div>
                         </div>
 
                     </div>
                 </div>
-                <div class="authorAndRights">
-                    <div class="rights">
-                        <b>© SONOlife 2020.</b><br>Wszystkie prawa zastrzeżone<br>Polityka prywatności
+
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="footer ">
+            <div class="ninthPageImg "></div>
+
+
+            <div class="ninthPageContact ">
+
+                <b class="contactB">Skontaktuj się z nami</b>
+                <div class="contactContainer ">
+                    <div class="ninthPageGrey "></div>
+                    <div class="contact ">
+                        <div class="loc ">
+                            <img src="img/9_icon1.png "><br>
+                            <span><b>SONOlife Spółka&nbsp;z&nbsp;o.o.</b><br>al. Zygmunta Krasińskiego&nbsp;20a<br>64-100 Leszno</span>
+                        </div>
+                        <div class="rights ">
+                            <b>© SONOlife 2020.</b><br>Wszystkie prawa zastrzeżone<br><a target="_blank" href="policy.html">Polityka prywatności</a>
+                        </div>
                     </div>
-                    <div class="author">Wykonanie serwisu:<br>www.dont.pl</div>
+                    <div class="contact ">
+                        <div class="phones ">
+
+                            <div class="phone1 ">
+                                <img src="img/9_icon2.png "><br>
+                                <span><b>tel.</b> 65 545 8040<br>
+                                    <b>faks:</b> 65 545 8042</span>
+                            </div>
+                            <div class="phone2 ">
+                                <img src="img/9_icon3.png "><br>
+                                <span><b>email: </b><a href="mailto:sonoeye@sonolife.pl "> sonoeye@sonolife.pl</a></span>
+                            </div>
+
+                            <div class="author ">Wykonanie serwisu:<br><a href="https://www.dont.pl ">www.dont.pl</a></div>
+                        </div>
+
+                    </div>
                 </div>
+
 
             </div>
         </div>
@@ -296,7 +415,11 @@
 
 
 
-    <script src="scriptForm.js"></script>
+
+    <script src="scriptForm.js "></script>
+    <script src="jquery.min.js"></script>
+    <script src="form2.js"></script>
+
 </body>
 
 </html>

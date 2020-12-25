@@ -106,3 +106,7 @@
     -ms-transition: all 0.3s ease-out;
     -o-transition: all 0.3s ease-out;
 }
+
+.blueCheckbox {
+    border: 1px solid #009ee0 !important;
+}
