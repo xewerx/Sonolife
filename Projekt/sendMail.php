@@ -14,7 +14,7 @@ function sendMail($title, $message, $fromName, $email) {
     $mail->Port = 0;
     $mail->CharSet = 'UTF-8';
     $mail->IsHTML(true);
-    $mail->Username = "formularz@sonolife.pl";
+    $mail->Username = "";
     $mail->Password = "";
     $mail->SetFrom("");
     $mail->Subject = $title;
