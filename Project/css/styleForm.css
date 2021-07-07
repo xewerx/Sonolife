@@ -1,0 +1,1186 @@
+                body {
+                    padding: 0 5vw 0 5vw;
+                    margin: 0;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 300;
+                }
+                
+                .ninthPageDescribe,
+                .ninthPageForm,
+                .ninthPageImg {
+                    opacity: 1;
+                }
+                
+                .seventhPage {
+                    opacity: 0;
+                }
+                
+                .container {
+                    margin-top: 100px;
+                }
+                
+                header {
+                    width: 99vw;
+                    left: -5vw;
+                    z-index: 3;
+                    position: relative;
+                }
+                
+                .nav {
+                    opacity: 0;
+                    width: 47%;
+                }
+                
+                .ham {
+                    opacity: 0;
+                }
+                
+                .buyButton {
+                    width: auto;
+                    padding: 0 20px 0 20px;
+                    background-color: white;
+                    color: #009ee0;
+                }
+                
+                .buyButton:hover {
+                    color: #006aa7;
+                    background-color: white;
+                }
+                
+                .mobFooter {
+                    display: none;
+                }
+                /* UP ADVERT */
+                
+                .upAdvert {
+                    width: 100%;
+                    height: 30vh;
+                    margin-top: 5vh;
+                    position: relative;
+                    font-size: 30px;
+                    font-weight: 300;
+                }
+                
+                .upAdvertGrey {
+                    position: absolute;
+                    height: 20%;
+                    right: 0%;
+                    width: 77%;
+                    background-color: #f3f3f3;
+                    z-index: -1;
+                }
+                
+                .upAdvertBlue {
+                    height: 50%;
+                    width: 100%;
+                    position: absolute;
+                    bottom: 0;
+                    background-color: #006aa7;
+                    color: white;
+                    font-size: 30px;
+                    display: flex;
+                    align-items: center;
+                }
+                
+                .string {
+                    position: relative;
+                    top: 10%;
+                    left: 5%;
+                }
+                
+                .string {
+                    top: 25%;
+                }
+                
+                .string2 {
+                    margin-left: 5%;
+                    font-size: 20px;
+                }
+                
+                .string b {
+                    color: #006aa7;
+                }
+                
+                .upAdvertImg {
+                    height: 353px;
+                    width: 362px;
+                    position: absolute;
+                    left: 65%;
+                    bottom: 0;
+                    background: url('img2/1_img1.png');
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+                    z-index: 5;
+                }
+                
+                .progress {
+                    width: 80%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-left: 10%;
+                    margin-top: 80px;
+                    margin-bottom: 4vh;
+                }
+                
+                .step {
+                    width: 20%;
+                    height: 150px;
+                    text-align: center;
+                    font-weight: 500;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    align-content: flex-end;
+                    position: relative;
+                }
+                
+                .stepIcon {
+                    display: none;
+                    position: absolute;
+                    bottom: 0;
+                }
+                
+                .stepIconShow {
+                    display: block;
+                    position: absolute;
+                    bottom: 0;
+                }
+                
+                .step span:first-of-type {
+                    font-size: 12px;
+                    color: #006aa7;
+                }
+                
+                .smDots {
+                    height: 4px;
+                    width: 312px;
+                    margin-left: 15px;
+                    margin-right: 15px;
+                    background-color: tomato;
+                    background: url('img2/dots.png');
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+                }
+                
+                .stepDescribe {
+                    width: 100%;
+                    text-align: center;
+                    font-size: 12px;
+                    color: #006aa7;
+                    font-weight: 500;
+                    padding: 3% 0 0 0;
+                }
+                
+                .stepDescribe span {
+                    width: 100%;
+                    text-align: center;
+                    font-size: 30px;
+                    color: black;
+                    font-weight: 300;
+                }
+                /* STEP1 */
+                
+                .chooseStep1 {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                }
+                
+                .seventhPage {
+                    width: 48%;
+                    left: 0%;
+                    margin-top: 8vh;
+                    position: relative;
+                    font-size: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    font-weight: 600;
+                    border: 2px solid #f3f3f3;
+                }
+                
+                .seventhPageImgs {
+                    height: 210px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-evenly;
+                    align-items: center;
+                    flex-wrap: nowrap;
+                    font-weight: 500;
+                }
+                
+                .img1 {
+                    width: 200px;
+                    height: auto;
+                }
+                
+                .img1_2 {
+                    width: 190px;
+                    height: 210px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                }
+                
+                .img1img {
+                    width: 66px;
+                    min-height: 195px;
+                    max-height: 195px;
+                    background: url('img/7_img1_2.png');
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+                    margin-top: 15px;
+                }
+                
+                .img1img_2a {
+                    background: url('img2/7_img1_2a.png');
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+                }
+                
+                .img2img {
+                    width: 130px;
+                    height: 210px;
+                    background: url('img/7_img2_2.png');
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+                }
+                
+                .img3img {
+                    width: 140px;
+                    height: 210px;
+                    background: url('img2/2_walizka.png');
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
+                }
+                
+                .icons {
+                    width: 94%;
+                    height: 10vh;
+                    margin-top: 80px;
+                    display: flex;
+                    flex-direction: row;
+                    padding-bottom: 50px;
+                    align-items: center;
+                    justify-content: space-evenly;
+                }
+                
+                .icon {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    align-items: center;
+                    padding: 5%;
+                    font-size: 16px;
+                    font-weight: 500;
+                    width: 25%;
+                }
+                
+                .icon img {
+                    margin-right: 25px;
+                }
+                
+                .img3 {
+                    height: 100%;
+                }
+                
+                .img2 {
+                    height: 100%;
+                }
+                
+                .imgs1 {
+                    display: flex;
+                    justify-content: space-evenly;
+                    padding: 0;
+                }
+                
+                .plus {
+                    height: 30px;
+                    width: 30px;
+                    min-width: 30px;
+                    max-width: 30px;
+                    min-height: 30px;
+                    max-height: 30px;
+                    margin-left: 1%;
+                    margin-right: 1%;
+                }
+                
+                .plus_s {
+                    margin-left: -50px;
+                }
+                
+                .packetName,
+                .choose {
+                    width: 94%;
+                    font-size: 40px;
+                    color: #006aa7;
+                    background-color: #f3f3f3;
+                    font-weight: 500;
+                    padding: 3%;
+                }
+                
+                .packetName {
+                    width: 95%;
+                    font-size: 30px;
+                    font-weight: 600;
+                    padding: 3% 0 3% 5%;
+                }
+                
+                .choose {
+                    text-align: center;
+                    color: white;
+                    background-color: #009ee0;
+                    font-size: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    cursor: pointer;
+                }
+                
+                .choose:hover,
+                .nextButton:hover {
+                    background-color: #236aa4;
+                }
+                
+                .checkbox-container2 {
+                    padding: 0;
+                    display: block;
+                    font-size: 12px;
+                    width: 26px;
+                    margin-right: 20px;
+                }
+                
+                .packetInclude {
+                    width: 95%;
+                    text-align: left;
+                    position: relative;
+                    margin: 15px 0 20px 0;
+                    font-weight: 300;
+                    padding-left: 5%;
+                }
+                
+                .seventhPageDescribe {
+                    font-size: 12px;
+                }
+                
+                .nextButton {
+                    width: 20%;
+                    height: 3vh;
+                    padding: 1%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 4vh;
+                    margin-bottom: 100px;
+                    background-color: #009ee0;
+                    color: white;
+                    font-size: 18px;
+                    text-align: center;
+                    font-weight: 500;
+                    cursor: pointer;
+                }
+                
+                .footer {
+                    width: 100%;
+                    height: 50vh;
+                    position: relative;
+                    margin-top: 300px;
+                }
+                
+                .ninthPageImg {
+                    height: 352px;
+                    width: 650px;
+                }
+                
+                .logoFooter {
+                    width: 40%;
+                    position: absolute;
+                    height: 10%;
+                    left: 0;
+                    top: -80px;
+                }
+                
+                .ninthPageGrey {
+                    position: absolute;
+                    height: 190px;
+                    width: 70vw;
+                    top: 55px;
+                    right: 0;
+                    margin-right: -5vw;
+                    background-color: #f3f3f3;
+                    z-index: -5;
+                }
+                
+                .ninthPageContact {
+                    width: 45%;
+                    right: 10px;
+                }
+                
+                .contact:last-of-type {
+                    margin-left: 40px;
+                }
+                /* CHOOSE 2 */
+                
+                .chooseStep2 {
+                    width: 100%;
+                    display: none;
+                    /*flex */
+                    justify-content: space-around;
+                    margin-top: 5vh;
+                }
+                
+                .item {
+                    width: 30%;
+                    height: 350px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    align-content: center;
+                    justify-content: space-between;
+                    position: relative;
+                    border: 2px solid #f3f3f3;
+                }
+                
+                .itemIcon {
+                    display: flex;
+                    align-items: center;
+                }
+                
+                .packetName2 {
+                    width: 100%;
+                    font-size: 20px;
+                    font-weight: 600;
+                    text-align: center;
+                    padding: 5% 0 5% 0;
+                }
+                /* CHOOSE STEP 3 */
+                
+                .chooseStep3 {
+                    display: none;
+                    /*flex*/
+                    justify-content: center;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-top: 4vh;
+                }
+                
+                .chooseStep3Header {
+                    background-color: #006aa7;
+                    color: white;
+                    font-size: 30px;
+                    font-weight: 500;
+                    padding: 3% 5% 3% 5%;
+                    width: 90%;
+                    text-align: center;
+                }
+                
+                .ninthPageForm {
+                    position: static;
+                    background-color: #f3f3f3;
+                    color: black;
+                }
+                
+                .ninthBackround {
+                    width: 100%;
+                    background-color: #f3f3f3;
+                    display: flex;
+                    justify-content: center;
+                }
+                
+                .blueCheckbox {
+                    border: 1px solid #009ee0;
+                }
+                
+                .chooseStep3Header b {
+                    font-size: 40px;
+                }
+                
+                .contact1-form-btn {
+                    background-color: #009ee0;
+                    color: white
+                }
+                
+                .contact1-form-btn:hover {
+                    background-color: #009ee0;
+                    color: white
+                }
+                
+                .ninthPageContact .contactB {
+                    display: block;
+                    margin-left: 0;
+                    margin-bottom: 20px;
+                }
+                
+                input[type=checkbox] {
+                    border: 1px solid #006aa7;
+                }
+                
+                input[type=text] {
+                    border-bottom: 1px solid#006aa7;
+                    background-color: #f3f3f3;
+                }
+                
+                input[type=text]::placeholder,
+                textarea::placeholder {
+                    color: #006aa7;
+                }
+                
+                .ninthPageFormTitle {
+                    color: #006aa7;
+                }
+                
+                input[type=text],
+                textarea {
+                    color: #006aa7;
+                }
+                /* thanks */
+                
+                .thanks {
+                    width: 60%;
+                    margin-left: 20%;
+                    margin-top: 100px;
+                    text-align: center;
+                    font-weight: 300;
+                    font-size: 30px;
+                    display: none;
+                    /*flex*/
+                    flex-direction: column;
+                    align-items: center;
+                }
+                
+                .thanks img {
+                    margin-bottom: 50px;
+                }
+                /* JS CLASS */
+                
+                .colorStep {
+                    color: #006aa7;
+                    font-weight: 500;
+                }
+                
+                .error {
+                    display: none;
+                    width: 20%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-top: 30px;
+                    color: red;
+                    font-size: 18px;
+                    text-align: center;
+                    font-weight: 500;
+                }
+                
+                @media (max-width: 1726px) {}
+                
+                @media (max-width: 1640px) {
+                    .step {
+                        height: 170px;
+                    }
+                }
+                
+                @media (max-width: 1540px) {}
+                
+                @media (max-width: 1460px) {}
+                
+                @media (max-width: 1340px) {
+                    .img1 {
+                        width: 150px;
+                    }
+                    .img1img_s {
+                        margin-top: 30px;
+                    }
+                }
+                /* MOBILE VIEW ////////////////////////////*/
+                
+                @media (max-width: 1200px) {
+                    header {
+                        z-index: 2;
+                    }
+                    .nav {
+                        margin-right: 0;
+                    }
+                    .mobFooter {
+                        display: block;
+                    }
+                    .footer {
+                        display: none;
+                    }
+                    .string {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                    }
+                    .upAdvert {
+                        width: 100%;
+                        height: 450px;
+                        margin-top: 5vh;
+                        position: relative;
+                        font-size: 30px;
+                        font-weight: 300;
+                    }
+                    .upAdvertBlue {
+                        height: 200px;
+                        width: 95vw;
+                        margin-right: -5vw;
+                        position: absolute;
+                        bottom: 0;
+                        background-color: #006aa7;
+                        color: white;
+                        font-size: 30px;
+                        display: flex;
+                        align-items: center;
+                    }
+                    .upAdvertImg {
+                        position: absolute;
+                        right: 0;
+                        bottom: 0;
+                        background: url(img2/1_img1.png);
+                        background-repeat: no-repeat;
+                        background-size: 100% 100%;
+                    }
+                    .upAdvertGrey {
+                        position: absolute;
+                        height: 400px;
+                        right: 0%;
+                        width: 77%;
+                        background-color: #f3f3f3;
+                        z-index: -1;
+                    }
+                    .chooseStep1 {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                    .seventhPage {
+                        width: 70%;
+                        left: 0%;
+                        margin-top: 8vh;
+                        position: relative;
+                        font-size: 20px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        font-weight: 600;
+                        border: 2px solid #f3f3f3;
+                    }
+                    .footer {
+                        width: 100%;
+                        height: 900px;
+                        position: relative;
+                        margin-top: 150px;
+                    }
+                    .ninthPageImg {
+                        position: absolute;
+                        width: 650px;
+                        bottom: 250px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        z-index: 22;
+                    }
+                    .chooseStep2 {
+                        width: 100%;
+                        display: none;
+                        flex-direction: column;
+                        align-items: center;
+                        margin-top: 5vh;
+                    }
+                    .item {
+                        width: 60%;
+                        height: 350px;
+                        margin-top: 50px;
+                    }
+                    .ninthPageContact {
+                        position: absolute;
+                        height: 130px;
+                        margin-top: 100px;
+                        width: 80%;
+                        left: 0;
+                        bottom: 0;
+                    }
+                    .nineMobileDots {
+                        position: relative;
+                        left: 360px;
+                        top: 300px;
+                        z-index: 33;
+                    }
+                    .ninthPageGrey {
+                        position: relative;
+                        height: 740px;
+                        width: 100vw;
+                        left: -5vw;
+                        background-color: #f3f3f3;
+                        z-index: -5;
+                    }
+                    .rights {
+                        position: relative;
+                        width: 80%;
+                        bottom: -85px;
+                    }
+                    .author {
+                        position: relative;
+                        bottom: 0;
+                    }
+                    .contact:last-of-type {
+                        margin-left: 0px;
+                    }
+                    .topnav {
+                        top: 6vh;
+                        opacity: 0;
+                    }
+                    .contactMobile {
+                        position: relative;
+                    }
+                    .rights {
+                        margin-bottom: 30px;
+                    }
+                }
+                
+                @media (max-width: 1050px) {
+                    .progress {
+                        display: none;
+                    }
+                    .stepDescribe {
+                        margin-top: 0px;
+                    }
+                }
+                
+                @media (max-width: 1000px) {
+                    .container {
+                        margin-top: 65px;
+                    }
+                    .upAdvertImg {
+                        height: 273px;
+                        width: 280px;
+                        position: absolute;
+                        right: 0;
+                        bottom: 145px;
+                        z-index: -1;
+                        background: url(img2/1_img1.png);
+                        background-repeat: no-repeat;
+                        background-size: 100% 100%;
+                    }
+                    .upAdvert {
+                        width: 100%;
+                        height: 450px;
+                        margin-top: 5vh;
+                        position: relative;
+                        font-size: 30px;
+                        font-weight: 300;
+                    }
+                    .upAdvertBlue {
+                        height: 100px;
+                        bottom: 50px;
+                    }
+                    .upAdvertGrey {
+                        position: absolute;
+                        height: 450px;
+                        top: 0;
+                        right: 0%;
+                        width: 75%;
+                        background-color: #f3f3f3;
+                        z-index: -1;
+                    }
+                    .rights {
+                        bottom: -70px;
+                    }
+                }
+                
+                @media (max-width: 925px) {
+                    .icon {
+                        height: 70px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 2%;
+                        font-weight: 500;
+                        width: 25%;
+                        font-size: 12px;
+                    }
+                    .icon img {
+                        margin: 0;
+                        width: 32px;
+                        height: 33px;
+                        margin-bottom: 10px;
+                    }
+                }
+                
+                @media (max-width: 900px) {
+                    .seventhPage {
+                        width: 90%;
+                    }
+                    .nextButton {
+                        width: 250px;
+                        height: 20px;
+                        padding: 3%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+                
+                @media (max-width: 770px) {
+                    .upAdvertImg {
+                        left: 320px;
+                    }
+                }
+                
+                @media (max-width: 745px) {
+                    .ninthPageImg {
+                        height: 270px;
+                        width: 500px;
+                        margin-left: auto;
+                        margin-right: auto;
+                        bottom: 250px;
+                    }
+                    .ninthPageContact {
+                        width: 100%;
+                        right: 0;
+                        z-index: 33;
+                        bottom: 30px;
+                    }
+                    .nineMobileDots {
+                        position: relative;
+                        left: 360px;
+                        top: 140px;
+                        z-index: 33;
+                    }
+                    .footer {
+                        width: 100%;
+                        height: 800px;
+                        position: relative;
+                    }
+                    .icon {
+                        padding: 1%;
+                    }
+                    .rights {
+                        margin-bottom: 30px;
+                    }
+                }
+                
+                @media (max-width: 700px) {
+                    .seventhPage {
+                        width: 100%;
+                    }
+                    .img1img_s {
+                        margin-top: 45px;
+                    }
+                    .img1img {
+                        width: 60px;
+                        min-height: 180px;
+                        max-height: 180px;
+                    }
+                    .img2img {
+                        width: 111px;
+                        height: 180px;
+                        background: url(img/7_img2_2.png);
+                        background-repeat: no-repeat;
+                        background-size: 100% 100%;
+                        margin: 0;
+                    }
+                    .img3img {
+                        width: 120px;
+                        height: 180px;
+                        background: url(img2/2_walizka.png);
+                        background-repeat: no-repeat;
+                        background-size: 100% 100%;
+                        margin: 0;
+                    }
+                    .img1,
+                    .img3,
+                    .img2 {
+                        width: 120px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    .img2 {
+                        width: auto;
+                    }
+                    .img3 {
+                        width: auto;
+                        margin-left: 10px;
+                    }
+                    .plus {
+                        margin-bottom: 30px;
+                    }
+                    .item {
+                        width: 90%;
+                    }
+                    .ninthPageContact {
+                        position: absolute;
+                        height: 130px;
+                        margin-top: 100px;
+                    }
+                }
+                
+                @media (max-width: 630px) {
+                    .buyButton {
+                        display: none;
+                    }
+                    .upAdvertImg {
+                        left: 270px;
+                        height: 273px;
+                        width: 280px;
+                    }
+                    .img1img {
+                        width: 50px;
+                        min-height: 150px;
+                        max-height: 150px;
+                    }
+                    .img2img {
+                        width: 92.5px;
+                        height: 150px;
+                        background: url(img/7_img2_2.png);
+                        background-repeat: no-repeat;
+                        background-size: 100% 100%;
+                    }
+                    .img3img {
+                        width: 100px;
+                        height: 150px;
+                        background: url(img2/2_walizka.png);
+                        background-repeat: no-repeat;
+                        background-size: 100% 100%;
+                    }
+                    .plus {
+                        margin-right: 10px;
+                        margin-left: 10px;
+                    }
+                    .icons {
+                        margin-top: 40px;
+                    }
+                    .icon {
+                        padding: 10px 0 10px 0;
+                    }
+                    .chooseStep3Header {
+                        font-size: 20px;
+                    }
+                    .chooseStep3Header b {
+                        font-size: 30px;
+                    }
+                    .thanks {
+                        font-size: 20px;
+                    }
+                    .thanks img {
+                        width: 60px;
+                        height: 60px;
+                    }
+                    .choose,
+                    .nextButton {
+                        font-size: 16px;
+                    }
+                    .error {
+                        font-size: 12px;
+                    }
+                    .nineMobileDots {
+                        left: 260px;
+                    }
+                    .contact {
+                        font-size: 10px;
+                    }
+                    .contactContainer img {
+                        margin-right: 15px;
+                        min-width: 20px;
+                        min-height: 20px;
+                        max-width: 20px;
+                        max-height: 20px;
+                    }
+                    .author,
+                    .rights {
+                        padding-left: 50px;
+                    }
+                }
+                
+                @media (max-width: 580px) {
+                    .upAdvertImg {
+                        left: 210px;
+                    }
+                    .seventhPage,
+                    .icon {
+                        font-size: 12px;
+                    }
+                    .ninthPageImg {
+                        height: 216px;
+                        width: 400px;
+                    }
+                    .nineMobileDots {
+                        left: 160px;
+                        top: 70px;
+                    }
+                    .ninthPageGrey {
+                        position: relative;
+                        height: 640px;
+                        width: 100vw;
+                        left: -5vw;
+                        background-color: #f3f3f3;
+                        z-index: -5;
+                    }
+                    .footer {
+                        height: 650px;
+                    }
+                    .author,
+                    .rights {
+                        position: relative;
+                    }
+                }
+                
+                @media (max-width: 540px) {
+                    .upAdvertImg {
+                        left: 170px;
+                        height: 214px;
+                        width: 220px;
+                    }
+                    .img1img {
+                        width: 35px;
+                        min-height: 100px;
+                        max-height: 100px;
+                    }
+                    .img2img {
+                        width: 61px;
+                        height: 100px;
+                        background: url(img/7_img2_2.png);
+                        background-repeat: no-repeat;
+                        background-size: 100% 100%;
+                    }
+                    .img3img {
+                        width: 66px;
+                        height: 100px;
+                        background: url(img2/2_walizka.png);
+                        background-repeat: no-repeat;
+                        background-size: 100% 100%;
+                    }
+                    .seventhPageImgs {
+                        height: 160px;
+                    }
+                    .packetInclude {
+                        margin-bottom: 10px;
+                    }
+                    .rights {
+                        bottom: -60px;
+                    }
+                }
+                
+                @media (max-width: 505px) {
+                    .img1img_s {
+                        margin-top: 40px
+                    }
+                }
+                
+                @media (max-width: 460px) {
+                    .upAdvertImg {
+                        left: 130px;
+                    }
+                    .ninthPageImg {
+                        height: 162px;
+                        width: 300px;
+                    }
+                    .footer {
+                        height: 600px;
+                    }
+                    .img3 {
+                        margin: 0;
+                    }
+                    .plus {
+                        margin: 0 5px 0 5px;
+                    }
+                    .nineMobileDots {
+                        height: 130px;
+                        width: 150px;
+                        top: 90px;
+                    }
+                    .ninthPageGrey {
+                        position: relative;
+                        height: 600px;
+                        width: 100vw;
+                        left: -5vw;
+                        background-color: #f3f3f3;
+                        z-index: -5;
+                    }
+                    .thanks {
+                        font-size: 14px;
+                        width: 90%;
+                        margin-left: 5%;
+                    }
+                    .thanks img {
+                        margin-bottom: 20px;
+                    }
+                    .rights,
+                    .author {
+                        padding-left: 35px;
+                    }
+                }
+                
+                @media (max-width: 430px) {
+                    .upAdvertImg {
+                        left: 90px;
+                    }
+                    .seventhPageDescribe,
+                    .icon {
+                        font-size: 10px;
+                    }
+                    .string {
+                        font-size: 24px;
+                    }
+                    .string2 {
+                        font-size: 16px;
+                    }
+                    .rights {
+                        position: relative;
+                        width: 80%;
+                        bottom: -92px;
+                    }
+                    .author {
+                        margin-top: 60px;
+                    }
+                    .ninthPageGrey {
+                        top: 60px;
+                        height: 400px;
+                    }
+                    .nextButton {
+                        margin-bottom: 200px;
+                    }
+                    .chooseStep3,
+                    .thanks {
+                        margin-bottom: 200px;
+                    }
+                    .img1img_s {
+                        margin-top: 15px
+                    }
+                }
+                
+                @media (max-width: 400px) {
+                    .img1_2 {
+                        width: 150px;
+                        height: 210px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+                
+                @media (max-width: 380px) {
+                    .img1_2 {
+                        width: 150px;
+                        height: 210px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    .upAdvertImg {
+                        left: 70px;
+                    }
+                }
+                
+                @media (max-width: 370px) {
+                    .img1img_s {
+                        margin-top: 25px
+                    }
+                }
